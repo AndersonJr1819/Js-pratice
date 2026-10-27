@@ -4,6 +4,7 @@
 // Se a temperatura for menor que 15 exiba "Esta frio"
 // Se estiver entre 15 e 25 exiba que "esta agradavel "Esta agradavel"
 // Se for maior que 25 exiba "esta calor"
+console.log("============================================================================================================")
 
 let temperatura = 55
 
@@ -14,6 +15,7 @@ if(temperatura < 40) {
 }else {
     console.log("Esta calor")
 }       
+console.log("============================================================================================================")
 
 //---------------------------------------------------------------------------------------------------------------//
 
@@ -32,6 +34,7 @@ if(nota >= 1){
 }else{
   console.log("Reprovado")
 }
+console.log("============================================================================================================")
 
 // LEMBRAR QUE NEN SEMPRE É NECEESARIO USAR O &&
 
@@ -56,3 +59,24 @@ if (idade < 12) {
 } else {
   console.log("Idoso");
 }
+console.log("============================================================================================================")
+
+// Atividade 4 
+// crie uma variavel estoque
+// o programa deverá existir 
+// estoque igual a 0 "produto esgotado"
+// estoque menor ou igual a 5 "estoque baixo"
+// estoque maior que 6 "estoque disponivel"
+
+let estoque = 0
+
+if(estoque == 0){
+  console.log("Produto esgotado")
+}else if(estoque <= 5){
+  console.log("Estoque baixo")
+}else{
+  console.log("Estoque disponivel")
+}  
+console.log("============================================================================================================")
+
+// Atividade 5
