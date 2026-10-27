@@ -108,3 +108,20 @@ console.log("===================================================================
 // compras de R$ 100 ou mais devem receber 5 % de desconto 
 // compras abaixo de R$ 100 não devem receber desconto 
 // o programa devera calcular e mostrar o valor final da compra 
+
+let valordecompra = 350
+let desconto = 0
+
+if(valordecompra  >= 500){
+  desconto - 0.20
+}else if(valordecompra >= 200){
+  desconto = 0.10
+}else if(valordecompra >= 100){
+  desconto = 0.05
+}else{
+  desconto = 0
+}
+
+let valorfinal = valordecompra - (valordecompra * desconto)
+
+console.log("valor final: R$" + valorfinal)
