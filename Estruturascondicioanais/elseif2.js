@@ -80,3 +80,31 @@ if(estoque == 0){
 console.log("============================================================================================================")
 
 // Atividade 5
+// Crie uma variavel desempenho com valor entre 0 a 100
+// O programa devera exibir
+// 90 ou mais "Excelente"
+// 70 a 89 "Bom"
+// 50 a 69 "Regular"
+// Menor que 50 "Precisa melhorar"
+
+let desempenho = 100
+
+if(desempenho > 90){
+    console.log("Excelente")
+}else if(desempenho >= 89){
+  console.log("Bom")
+}else if(desempenho >= 69){
+  console.log("Regular")
+}else{
+  console.log("Precisa melhorar")
+}
+console.log("============================================================================================================")
+
+// Atividade 6 
+// Crie uma variavel chamda valordecompra
+// o programa devera aplicar as seguites regras
+// compras de R$ 500 ou mais devem receber 20% de desconto
+// compras de R$ 200 ou mais devem receber 10 % de desconto
+// compras de R$ 100 ou mais devem receber 5 % de desconto 
+// compras abaixo de R$ 100 não devem receber desconto 
+// o programa devera calcular e mostrar o valor final da compra 
