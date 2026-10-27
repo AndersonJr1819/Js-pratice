@@ -124,4 +124,6 @@ if(valordecompra  >= 500){
 
 let valorfinal = valordecompra - (valordecompra * desconto)
 
-console.log("valor final: R$" + valorfinal)
+console.log("valor final: R$" + valorfinal) //ESTUDAR MAIS QUESTÕES DE PORCEBTAGEM EM JS
+console.log("============================================================================================================")
+
